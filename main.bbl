@@ -1,0 +1,615 @@
+\providecommand{\latin}[1]{#1}
+\makeatletter
+\providecommand{\doi}
+  {\begingroup\let\do\@makeother\dospecials
+  \catcode`\{=1 \catcode`\}=2 \doi@aux}
+\providecommand{\doi@aux}[1]{\endgroup\texttt{#1}}
+\makeatother
+\providecommand*\mcitethebibliography{\thebibliography}
+\csname @ifundefined\endcsname{endmcitethebibliography}
+  {\let\endmcitethebibliography\endthebibliography}{}
+\begin{mcitethebibliography}{65}
+\providecommand*\natexlab[1]{#1}
+\providecommand*\mciteSetBstSublistMode[1]{}
+\providecommand*\mciteSetBstMaxWidthForm[2]{}
+\providecommand*\mciteBstWouldAddEndPuncttrue
+  {\def\EndOfBibitem{\unskip.}}
+\providecommand*\mciteBstWouldAddEndPunctfalse
+  {\let\EndOfBibitem\relax}
+\providecommand*\mciteSetBstMidEndSepPunct[3]{}
+\providecommand*\mciteSetBstSublistLabelBeginEnd[3]{}
+\providecommand*\EndOfBibitem{}
+\mciteSetBstSublistMode{f}
+\mciteSetBstMaxWidthForm{subitem}{(\alph{mcitesubitemcount})}
+\mciteSetBstSublistLabelBeginEnd
+  {\mcitemaxwidthsubitemform\space}
+  {\relax}
+  {\relax}
+
+\bibitem[Shim \latin{et~al.}(2001)Shim, Lim, and Foo]{shim2001dynamic}
+Shim,~V.; Lim,~C.; Foo,~K. Dynamic mechanical properties of fabric armour.
+  \emph{International Journal of Impact Engineering} \textbf{2001}, \emph{25},
+  1--15\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Knijnenberg \latin{et~al.}(2010)Knijnenberg, Bos, and
+  Dingemans]{knijnenberg2010synthesis}
+Knijnenberg,~A.; Bos,~J.; Dingemans,~T.~J. The synthesis and characterisation
+  of reactive poly (p-phenylene terephthalamide) s: a route towards compression
+  stable aramid fibres. \emph{Polymer} \textbf{2010}, \emph{51},
+  1887--1897\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Yang(1993)]{yang1993kevlar}
+Yang,~H. \emph{Kevlar aramid fiber}; Wiley, 1993\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Mark \latin{et~al.}(1962)Mark, Atlas, and Ogata]{mark1962aromatic}
+Mark,~H.; Atlas,~S.; Ogata,~N. Aromatic polyamide. \emph{Journal of Polymer
+  Science} \textbf{1962}, \emph{61}, S49--S53\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Sockalingam \latin{et~al.}(2017)Sockalingam, Chowdhury, Gillespie~Jr,
+  and Keefe]{sockalingam2017recent}
+Sockalingam,~S.; Chowdhury,~S.~C.; Gillespie~Jr,~J.~W.; Keefe,~M. Recent
+  advances in modeling and experiments of Kevlar ballistic fibrils, fibers,
+  yarns and flexible woven textile fabrics--a review. \emph{Textile Research
+  Journal} \textbf{2017}, \emph{87}, 984--1010\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Kim \latin{et~al.}(2008)Kim, McDonough, Blair, and
+  Holmes]{kim2008modified}
+Kim,~J.; McDonough,~W.~G.; Blair,~W.; Holmes,~G.~A. The modified-single fiber
+  test: A methodology for monitoring ballistic performance. \emph{Journal of
+  applied polymer science} \textbf{2008}, \emph{108}, 876--886\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Krishnan \latin{et~al.}(2010)Krishnan, Sockalingam, Bansal, and
+  Rajan]{krishnan2010numerical}
+Krishnan,~K.; Sockalingam,~S.; Bansal,~S.; Rajan,~S. Numerical simulation of
+  ceramic composite armor subjected to ballistic impact. \emph{Composites Part
+  B: Engineering} \textbf{2010}, \emph{41}, 583--593\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Rao \latin{et~al.}(2001)Rao, Waddon, and Farris]{rao2001structure}
+Rao,~Y.; Waddon,~A.; Farris,~R. Structure--property relation in poly
+  (p-phenylene terephthalamide)(PPTA) fibers. \emph{Polymer} \textbf{2001},
+  \emph{42}, 5937--5946\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Hogg(2006)]{hogg2006composites}
+Hogg,~P.~J. Composites in armor. \emph{Science} \textbf{2006}, \emph{314},
+  1100--1101\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Brauckmann \latin{et~al.}(2016)Brauckmann, Zolfaghari, Verhoef, Klop,
+  de~Wijs, and Kentgens]{brauckmann2016structural}
+Brauckmann,~J.~O.; Zolfaghari,~P.; Verhoef,~R.; Klop,~E.~A.; de~Wijs,~G.~A.;
+  Kentgens,~A.~P. Structural studies of polyaramid fibers: Solid-state NMR and
+  first-principles modeling. \emph{Macromolecules} \textbf{2016}, \emph{49},
+  5548--5560\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Deshmukh \latin{et~al.}(2016)Deshmukh, Wilsens, Verhoef, Hansen,
+  Dudenko, Graf, Klop, and Rastogi]{deshmukh2016conformational}
+Deshmukh,~Y.~S.; Wilsens,~C.~H.; Verhoef,~R.; Hansen,~M.~R.; Dudenko,~D.;
+  Graf,~R.; Klop,~E.~A.; Rastogi,~S. Conformational and structural changes with
+  increasing methylene segment length in aromatic--aliphatic polyamides.
+  \emph{Macromolecules} \textbf{2016}, \emph{49}, 950--962\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Chen(2016)]{chen2016advanced}
+Chen,~X. \emph{Advanced fibrous composite materials for ballistic protection};
+  Woodhead Publishing, 2016\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Dobb \latin{et~al.}(1979)Dobb, Johnson, Majeed, and
+  Saville]{dobb1979microvoids}
+Dobb,~M.; Johnson,~D.; Majeed,~A.; Saville,~B. Microvoids in aramid-type
+  fibrous polymers. \emph{Polymer} \textbf{1979}, \emph{20}, 1284--1288\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Debeaupte \latin{et~al.}(1992)Debeaupte, Watanabe, Sanui, and
+  Ogata]{debeaupte1992situ}
+Debeaupte,~E.; Watanabe,~M.; Sanui,~K.; Ogata,~N. In situ polycondensation for
+  synthesis of composites of elastomeric matrixes and wholly aromatic
+  polyamides. \emph{Chemistry of materials} \textbf{1992}, \emph{4},
+  1123--1128\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Ferreiro \latin{et~al.}(2005)Ferreiro, de~La~Campa, Lozano, and
+  de~Abajo]{ferreiro2005polyisophthalamides}
+Ferreiro,~J.~J.; de~La~Campa,~J.~G.; Lozano,~A.~E.; de~Abajo,~J.
+  Polyisophthalamides with heteroaromatic pendent rings: synthesis, physical
+  properties, and water uptake. \emph{Journal of Polymer Science Part A:
+  Polymer Chemistry} \textbf{2005}, \emph{43}, 5300--5311\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Ferrero \latin{et~al.}(2002)Ferrero, Espeso, De~la Campa, De~Abajo,
+  and Lozano]{ferrero2002synthesis}
+Ferrero,~E.; Espeso,~J.; De~la Campa,~J.; De~Abajo,~J.; Lozano,~A. Synthesis
+  and characterization of aromatic polyamides containing alkylphthalimido
+  pendent groups. \emph{Journal of Polymer Science Part A: Polymer Chemistry}
+  \textbf{2002}, \emph{40}, 3711--3724\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Zhou \latin{et~al.}(2017)Zhou, Zhang, Wang, Ping, Zhang, Zhao, Xu,
+  Shen, and Fan]{zhou2017synthesis}
+Zhou,~S.; Zhang,~M.; Wang,~R.; Ping,~J.; Zhang,~X.; Zhao,~N.; Xu,~J.; Shen,~Z.;
+  Fan,~X. Synthesis and characterization of new aramids based on
+  o-(m-triphenyl)-terephthaloyl chloride and m-(m-triphenyl)-isophthaloyl
+  chloride. \emph{Polymer} \textbf{2017}, \emph{109}, 49--57\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Garc{\'\i}a \latin{et~al.}(2010)Garc{\'\i}a, Garc{\'\i}a, Serna, and
+  Jos{\'e}]{garcia2010high}
+Garc{\'\i}a,~J.~M.; Garc{\'\i}a,~F.~C.; Serna,~F.; Jos{\'e},~L.
+  High-performance aromatic polyamides. \emph{Progress in polymer science}
+  \textbf{2010}, \emph{35}, 623--686\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Huang \latin{et~al.}(2013)Huang, Wang, Chang, Liao, Liaw, Lee, and
+  Lai]{huang2013solvent}
+Huang,~Y.-C.; Wang,~K.-L.; Chang,~C.-H.; Liao,~Y.-A.; Liaw,~D.-J.; Lee,~K.-R.;
+  Lai,~J.-Y. Solvent Response and Protonation Effects of Novel Aramides
+  Containing Pyridine and Unsymmetrical Carbazole Moieties.
+  \emph{Macromolecules} \textbf{2013}, \emph{46}, 7443--7450\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Rutledge \latin{et~al.}(1991)Rutledge, Suter, and
+  Papaspyrides]{rutledge1991analysis}
+Rutledge,~G.; Suter,~U.; Papaspyrides,~C. Analysis of structure of polymorphism
+  in poly (p-phenyleneterephthalamide) through correlation of simulation and
+  experiment. \emph{Macromolecules} \textbf{1991}, \emph{24}, 1934--1943\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Crouch \latin{et~al.}(2017)Crouch, Arnold, Pierlot, and
+  Billon]{crouch2017fibres}
+Crouch,~I.; Arnold,~L.; Pierlot,~A.; Billon,~H. \emph{The science of armour
+  materials}; Elsevier, 2017; pp 269--330\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Brown and Ennis(1977)Brown, and Ennis]{brown1977thermal}
+Brown,~J.; Ennis,~B. Thermal analysis of Nomex{\textregistered} and
+  Kevlar{\textregistered} fibers. \emph{Textile Research Journal}
+  \textbf{1977}, \emph{47}, 62--66\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Tonelli and Edwards(2020)Tonelli, and Edwards]{tonelli2020poly}
+Tonelli,~A.~E.; Edwards,~J.~F. Are poly (p-phenylene
+  terephthalamide)(Kevlar{\textregistered}) and other liquid crystalline
+  polymers conformationally rigid? \emph{Polymer} \textbf{2020}, \emph{193},
+  122342\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Khademinejad \latin{et~al.}(2016)Khademinejad, Mehdipour-Ataei, Ziaee,
+  and Abbasi]{khademinejad2016poly}
+Khademinejad,~S.; Mehdipour-Ataei,~S.; Ziaee,~F.; Abbasi,~F. Poly (ether ether
+  sulfone amide) s as a new category of processable heat-resistant polymers.
+  \emph{Designed Monomers and Polymers} \textbf{2016}, \emph{19},
+  553--559\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Liou \latin{et~al.}(2007)Liou, Fang, and Yen]{liou2007synthesis}
+Liou,~G.-S.; Fang,~Y.-K.; Yen,~H.-J. Synthesis and properties of noncoplanar
+  rigid-rod aromatic polyamides containing phenyl or naphthyl substituents.
+  \emph{Journal of Polymer Research} \textbf{2007}, \emph{14}, 147--155\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Amininasab \latin{et~al.}(2016)Amininasab, Rashidi, Taghavi, and
+  Shami]{amininasab2016preparation}
+Amininasab,~S.~M.; Rashidi,~A.; Taghavi,~M.; Shami,~Z. Preparation and
+  characterization of novel thermostable polyamides bearing different
+  photoactive pendent architectures with antibacterial properties.
+  \emph{Chinese Journal of Polymer Science} \textbf{2016}, \emph{34},
+  766--776\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Hajibeygi \latin{et~al.}(2016)Hajibeygi, Shabanian, and
+  Khodaei-Tehrani]{hajibeygi2016new}
+Hajibeygi,~M.; Shabanian,~M.; Khodaei-Tehrani,~M. New heat resistant
+  nanocomposites reinforced silicate nanolayers containing triazine rings based
+  on polyamide: synthesis, characterization, and flame retardancy study.
+  \emph{Polymer Composites} \textbf{2016}, \emph{37}, 188--198\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Zou \latin{et~al.}(2016)Zou, Wen, Yan, and Cai]{zou2016synthesis}
+Zou,~F.; Wen,~H.; Yan,~T.; Cai,~M. Synthesis and properties of novel soluble
+  aromatic polyamides containing 4-aryl-2, 6-diphenylpyridine moieties and
+  pendant fluorinated phenoxy groups. \emph{Journal of Polymer Research}
+  \textbf{2016}, \emph{23}, 1--10\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Zhang \latin{et~al.}(2016)Zhang, Yan, Ren, Li, Wang, and
+  Yang]{zhang2016effects}
+Zhang,~G.; Yan,~G.-M.; Ren,~H.-H.; Li,~Y.; Wang,~X.-J.; Yang,~J. Effects of a
+  trans-or cis-cyclohexane unit on the thermal and rheological properties of
+  semi-aromatic polyamides. \emph{Polymer Chemistry} \textbf{2016}, \emph{7},
+  44--53\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Damaceanu \latin{et~al.}(2011)Damaceanu, Rusu, Nicolescu, Bruma, and
+  Rusanov]{damaceanu2011organosoluble}
+Damaceanu,~M.-D.; Rusu,~R.-D.; Nicolescu,~A.; Bruma,~M.; Rusanov,~A.~L.
+  Organosoluble asymmetric aromatic polyamides bearing pendent phenoxy groups.
+  \emph{Polymer international} \textbf{2011}, \emph{60}, 1248--1258\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Long \latin{et~al.}(2020)Long, Chen, Liu, Shi, Lin, Li, and
+  Wang]{long2020tuning}
+Long,~J.-W.; Chen,~L.; Liu,~B.-W.; Shi,~X.-H.; Lin,~X.-B.; Li,~Y.-M.;
+  Wang,~Y.-Z. Tuning the Pendent Groups of Semiaromatic Polyamides toward High
+  Performance. \emph{Macromolecules} \textbf{2020}, \emph{53}, 3504--3513\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Peng \latin{et~al.}(2018)Peng, Peng, Yi, Zhang, and
+  Wang]{peng2018novel}
+Peng,~S.; Peng,~L.; Yi,~C.; Zhang,~W.; Wang,~X. A novel synthetic strategy for
+  preparing semi-aromatic components modified polyamide 6 polymer.
+  \emph{Journal of Polymer Science Part A: Polymer Chemistry} \textbf{2018},
+  \emph{56}, 959--967\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Bakkali-Hassani \latin{et~al.}(2018)Bakkali-Hassani, Planes, Roos,
+  Wirotius, Ibarboure, and Carlotti]{bakkali2018synthesis}
+Bakkali-Hassani,~C.; Planes,~M.; Roos,~K.; Wirotius,~A.-L.; Ibarboure,~E.;
+  Carlotti,~S. Synthesis of polyamide 6 with aramid units by combination of
+  anionic ring-opening and condensation reactions. \emph{European Polymer
+  Journal} \textbf{2018}, \emph{102}, 231--237\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Rwei \latin{et~al.}(2018)Rwei, Ranganathan, Chiang, and
+  Lee]{rwei2018synthesis}
+Rwei,~S.-P.; Ranganathan,~P.; Chiang,~W.-Y.; Lee,~Y.-H. Synthesis and
+  characterization of copolyamides derived from novel aliphatic bio-based
+  diamine. \emph{Journal of Applied Polymer Science} \textbf{2018}, \emph{135},
+  46878\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Rwei \latin{et~al.}(2018)Rwei, Ranganathan, Chiang, and
+  Lee]{rwei2018synthesisof}
+Rwei,~S.-P.; Ranganathan,~P.; Chiang,~W.-Y.; Lee,~Y.-H. Synthesis of low
+  melting temperature aliphatic-aromatic copolyamides derived from novel
+  bio-based semi aromatic monomer. \emph{Polymers} \textbf{2018}, \emph{10},
+  793\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Bisoi \latin{et~al.}(2017)Bisoi, Mandal, Padmanabhan, and
+  Banerjee]{bisoi2017aromatic}
+Bisoi,~S.; Mandal,~A.~K.; Padmanabhan,~V.; Banerjee,~S. Aromatic polyamides
+  containing trityl substituted triphenylamine: Gas transport properties and
+  molecular dynamics simulations. \emph{Journal of Membrane Science}
+  \textbf{2017}, \emph{522}, 77--90\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Prevorsek \latin{et~al.}(1994)Prevorsek, Kwon, and
+  Chin]{prevorsek1994analysis}
+Prevorsek,~D.~C.; Kwon,~Y.~D.; Chin,~H.~B. Analysis of the temperature rise in
+  the projectile and extended chain polyethylene fiber composite armor during
+  ballistic impact and penetration. \emph{Polymer Engineering \& Science}
+  \textbf{1994}, \emph{34}, 141--152\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Cline \latin{et~al.}(2018)Cline, Wu, and Moy]{cline2018assessment}
+Cline,~J.; Wu,~V.; Moy,~P. \emph{Assessment of the Tensile properties for
+  single fibers}; 2018\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Tashiro \latin{et~al.}(1977)Tashiro, Kobayashi, and
+  Tadokoro]{tashiro1977elastic}
+Tashiro,~K.; Kobayashi,~M.; Tadokoro,~H. Elastic moduli and molecular
+  structures of several crystalline polymers, including aromatic polyamides.
+  \emph{Macromolecules} \textbf{1977}, \emph{10}, 413--420\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Moe and Ediger(1995)Moe, and Ediger]{moe1995molecular}
+Moe,~N.~E.; Ediger,~M. Molecular dynamics computer simulation of polyisoprene
+  local dynamics in dilute toluene solution. \emph{Macromolecules}
+  \textbf{1995}, \emph{28}, 2329--2338\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Zhang \latin{et~al.}(2016)Zhang, Liu, Zhang, Liu, and
+  He]{zhang2016mesodyn}
+Zhang,~B.; Liu,~R.; Zhang,~J.; Liu,~B.; He,~J. MesoDyn simulation study of
+  phase behavior for dye--polyether derivatives in aqueous solutions.
+  \emph{Computational and Theoretical Chemistry} \textbf{2016}, \emph{1091},
+  8--17\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Zhelavskyi and Kyrychenko(2019)Zhelavskyi, and
+  Kyrychenko]{zhelavskyi2019atomistic}
+Zhelavskyi,~O.~S.; Kyrychenko,~A. Atomistic molecular dynamics simulations of
+  the LCST conformational transition in poly (N-vinylcaprolactam) in water.
+  \emph{Journal of Molecular Graphics and Modelling} \textbf{2019}, \emph{90},
+  51--58\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Chantawansri \latin{et~al.}(2015)Chantawansri, Yeh, and
+  Hsieh]{chantawansri2015investigating}
+Chantawansri,~T.~L.; Yeh,~I.-C.; Hsieh,~A.~J. Investigating the glass
+  transition temperature at the atom-level in select model polyamides: A
+  molecular dynamics study. \emph{Polymer} \textbf{2015}, \emph{81},
+  50--61\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Yang \latin{et~al.}(2021)Yang, Li, Stober, Burns, Gopinadhan, and
+  Martini]{yang2021molecular}
+Yang,~Q.; Li,~W.; Stober,~S.~T.; Burns,~A.~B.; Gopinadhan,~M.; Martini,~A.
+  Molecular Dynamics Simulation of the Stress--Strain Behavior of Polyamide
+  Crystals. \emph{Macromolecules} \textbf{2021}, \emph{54}, 8289--8302\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[BIOVIA(2020)]{MaterialStudio}
+BIOVIA, BIOVIA Material Studio. 2020;
+  \url{http://www.3ds.com/products-services/biovia/products/molecular-modeling-simulation/biovia-materials-studio},
+  Last accessed 16 February 2021\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Dodda \latin{et~al.}(2017)Dodda, Cabeza~de Vaca, Tirado-Rives, and
+  Jorgensen]{dodda2017ligpargen}
+Dodda,~L.~S.; Cabeza~de Vaca,~I.; Tirado-Rives,~J.; Jorgensen,~W.~L. LigParGen
+  web server: an automatic OPLS-AA parameter generator for organic ligands.
+  \emph{Nucleic acids research} \textbf{2017}, \emph{45}, W331--W336\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Dauber-Osguthorpe \latin{et~al.}(1988)Dauber-Osguthorpe, Roberts,
+  Osguthorpe, Wolff, Genest, and Hagler]{Dauber1988Structure}
+Dauber-Osguthorpe,~P.; Roberts,~V.~A.; Osguthorpe,~D.~J.; Wolff,~J.;
+  Genest,~M.; Hagler,~A.~T. Structure and energetics of ligand binding to
+  proteins: Escherichia coli dihydrofolate reductase-trimethoprim, a
+  drug-receptor system. \emph{Proteins: Structure, Function, and
+  Bioinformatics} \textbf{1988}, \emph{4}, 31--47\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Liu \latin{et~al.}(2011)Liu, Liu, Zybin, Sun, and
+  Goddard~III]{liu2011reaxff}
+Liu,~L.; Liu,~Y.; Zybin,~S.~V.; Sun,~H.; Goddard~III,~W.~A. ReaxFF-lg:
+  Correction of the ReaxFF reactive force field for London dispersion, with
+  applications to the equations of state for energetic materials. \emph{The
+  Journal of Physical Chemistry A} \textbf{2011}, \emph{115},
+  11016--11022\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Plimpton(1995)]{plimpton1995fast}
+Plimpton,~S. Fast parallel algorithms for short-range molecular dynamics.
+  \emph{Journal of computational physics} \textbf{1995}, \emph{117},
+  1--19\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Stukowski(2009)]{stukowski2009visualization}
+Stukowski,~A. Visualization and analysis of atomistic simulation data with
+  OVITO--the Open Visualization Tool. \emph{Modelling and Simulation in
+  Materials Science and Engineering} \textbf{2009}, \emph{18}, 015012\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Hoover(1985)]{hoover1985canonical}
+Hoover,~W.~G. Canonical dynamics: Equilibrium phase-space distributions.
+  \emph{Physical review A} \textbf{1985}, \emph{31}, 1695\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Hoover(1986)]{hoover1986constant}
+Hoover,~W.~G. Constant-pressure equations of motion. \emph{Physical Review A}
+  \textbf{1986}, \emph{34}, 2499\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Thalladi \latin{et~al.}(2000)Thalladi, N{\"u}sse, and
+  Boese]{thalladi2000melting}
+Thalladi,~V.~R.; N{\"u}sse,~M.; Boese,~R. The melting point alternation in
+  $\alpha$, $\omega$-alkanedicarboxylic acids. \emph{Journal of the American
+  Chemical Society} \textbf{2000}, \emph{122}, 9227--9236\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[White and Ellis(2008)White, and Ellis]{white2008room}
+White,~N.~A.; Ellis,~H.~A. Room temperature structures and odd--even behaviour
+  of a homologous series of anhydrous lithium n-alkanoates. \emph{Journal of
+  Molecular Structure} \textbf{2008}, \emph{888}, 386--393\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Bond(2004)]{bond2004crystal}
+Bond,~A.~D. On the crystal structures and melting point alternation of the
+  n-alkyl carboxylic acids. \emph{New journal of chemistry} \textbf{2004},
+  \emph{28}, 104--114\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Baeyer(1877)]{baeyer1877ueber}
+Baeyer,~A. Ueber regelm{\"a}ssigkeiten im schmelzpunkt homologer verbindungen.
+  \emph{Berichte der deutschen chemischen Gesellschaft} \textbf{1877},
+  \emph{10}, 1286--1288\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Mishra \latin{et~al.}(2013)Mishra, Varughese, Ramamurty, and
+  Desiraju]{mishra2013odd}
+Mishra,~M.~K.; Varughese,~S.; Ramamurty,~U.; Desiraju,~G.~R. Odd--even effect
+  in the elastic modulii of $\alpha$, $\omega$-alkanedicarboxylic acids.
+  \emph{Journal of the American Chemical Society} \textbf{2013}, \emph{135},
+  8121--8124\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Shen \latin{et~al.}(2017)Shen, Yao, Yu, Fu, Liu, and
+  Li]{shen2017facile}
+Shen,~Y.; Yao,~B.; Yu,~G.; Fu,~Y.; Liu,~F.; Li,~Z. Facile preparation of
+  bio-based polyesters from furandicarboxylic acid and long chain diols via
+  asymmetric monomer strategy. \emph{Green Chemistry} \textbf{2017}, \emph{19},
+  4930--4938\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Prisacariu and Scortanu(2011)Prisacariu, and
+  Scortanu]{prisacariu2011influence}
+Prisacariu,~C.; Scortanu,~E. Influence of the type of chain extender and
+  urethane group content on the mechanical properties of polyurethane
+  elastomers with flexible hard segments. \emph{High Performance Polymers}
+  \textbf{2011}, \emph{23}, 308--313\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Burattini \latin{et~al.}(2011)Burattini, Greenland, Hayes, Mackay,
+  Rowan, and Colquhoun]{burattini2011supramolecular}
+Burattini,~S.; Greenland,~B.~W.; Hayes,~W.; Mackay,~M.~E.; Rowan,~S.~J.;
+  Colquhoun,~H.~M. A supramolecular polymer based on tweezer-type $\pi$- $\pi$
+  stacking interactions: molecular design for healability and enhanced
+  toughness. \emph{Chemistry of Materials} \textbf{2011}, \emph{23}, 6--8\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Mercer \latin{et~al.}(2017)Mercer, Zywicz, and
+  Papadopoulos]{mercer2017molecular}
+Mercer,~B.; Zywicz,~E.; Papadopoulos,~P. Molecular dynamics modeling of PPTA
+  crystallite mechanical properties in the presence of defects. \emph{Polymer}
+  \textbf{2017}, \emph{114}, 329--347\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Frisch \latin{et~al.}(2013)Frisch, Trucks, Schlegel, Scuseria, Robb,
+  Cheeseman, Scalmani, Barone, Petersson, Nakatsuji, Li, Caricato, Marenich,
+  Bloino, Janesko, Gomperts, Mennucci, Hratchian, Ortiz, Izmaylov, Sonnenberg,
+  Williams-Young, Ding, Lipparini, Egidi, Goings, Peng, Petrone, Henderson,
+  Ranasinghe, Zakrzewski, Gao, Rega, Zheng, Liang, Hada, Ehara, Toyota, Fukuda,
+  Hasegawa, Ishida, Nakajima, Honda, Kitao, Nakai, Vreven, Throssell,
+  Montgomery, Peralta, Ogliaro, Bearpark, Heyd, Brothers, Kudin, Staroverov,
+  Keith, Kobayashi, Normand, Raghavachari, Rendell, Burant, Iyengar, Tomasi,
+  Cossi, Millam, Klene, Adamo, Cammi, Ochterski, Martin, Morokuma, Farkas,
+  Foresman, and Fox]{g09}
+Frisch,~M.~J. \latin{et~al.}  Gaussian˜09 {R}evision {E}.01. 2013; Gaussian
+  Inc. Wallingford CT\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Zhao and Truhlar(2008)Zhao, and Truhlar]{zhao_2008}
+Zhao,~Y.; Truhlar,~D.~G. The M06 suite of density functionals for main group
+  thermochemistry, thermochemical kinetics, noncovalent interactions, excited
+  states, and transition elements: two new functionals and systematic testing
+  of four M06-class functionals and 12 other functionals. \emph{Theoretical
+  Chemistry Accounts} \textbf{2008}, \emph{120}, 215--241\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[McLean and Chandler(1980)McLean, and Chandler]{mclean_1980}
+McLean,~A.~D.; Chandler,~G.~S. Contracted Gaussian basis sets for molecular
+  calculations. I. Second row atoms, Z=11–18. \emph{The Journal of Chemical
+  Physics} \textbf{1980}, \emph{72}, 5639--5648\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\end{mcitethebibliography}
