@@ -1,8 +1,8 @@
-PWD c:/Users/Samtari/Downloads/sts_latex/latex
+PWD e:/UC Merced/My Project/Exxon_Papers_GitHub/Effect of Aliphatic Chain Length on Polyamide Strain Response
 INPUT c:/texlive/2021/texmf.cnf
 INPUT c:/texlive/2021/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT c:/Users/Samtari/Downloads/sts_latex/latex/main.tex
+INPUT e:/UC Merced/My Project/Exxon_Papers_GitHub/Effect of Aliphatic Chain Length on Polyamide Strain Response/main.tex
 OUTPUT main.log
 INPUT c:/texlive/2021/texmf-dist/tex/latex/achemso/achemso.cls
 INPUT c:/texlive/2021/texmf-dist/tex/latex/achemso/achemso.cls

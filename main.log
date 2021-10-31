@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.29)  30 OCT 2021 15:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.29)  31 OCT 2021 08:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/Samtari/Downloads/sts_latex/latex/main.tex
-(c:/Users/Samtari/Downloads/sts_latex/latex/main.tex
+**"e:/UC Merced/My Project/Exxon_Papers_GitHub/Effect of Aliphatic Chain Length on Polyamide Strain Response/main.tex"
+(e:/UC Merced/My Project/Exxon_Papers_GitHub/Effect of Aliphatic Chain Length on Polyamide Strain Response/main.tex
 LaTeX2e <2021-06-01> patch level 1
 L3 programming layer <2021-10-18> (c:/texlive/2021/texmf-dist/tex/latex/achemso/achemso.cls
 Document Class: achemso 2021-01-20 v3.13c Submission to ACS journals
@@ -482,12 +482,12 @@ Package pdftex.def Info: DFT_figure_chemdraw.png  used on input line 496.
 (pdftex.def)             Requested size: 375.80574pt x 247.55148pt.
  (./main.bbl [16
 
- <./DFT_figure_chemdraw.png>] [17] [18] [19] [20]
+ <./DFT_figure_chemdraw.png>] [17] [18] [19] [20] [21]
 Underfull \hbox (badness 10000) in paragraph at lines 431--439
 \OT1/cmtt/m/n/12 biovia / products / molecular-[]modeling-[]simulation / biovia-[]materials-[]studio$\OT1/cmr/m/n/12 ,
  []
 
-[21] [22]
+[22]
 Underfull \hbox (badness 1253) in paragraph at lines 564--573
 []\OT1/cmr/m/n/12 Burattini, S.; Green-land, B. W.; Hayes, W.; Mackay, M. E.; Rowan, S. J.;
  []
@@ -495,14 +495,14 @@ Underfull \hbox (badness 1253) in paragraph at lines 564--573
 [23]) [24] (./main.aux) ) 
 Here is how much of TeX's memory you used:
  7715 strings out of 478579
- 131334 string characters out of 5857457
- 461441 words of memory out of 5000000
+ 131525 string characters out of 5857457
+ 460441 words of memory out of 5000000
  25484 multiletter control sequences out of 15000+600000
  413772 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,8n,131p,796b,527s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 84i,8n,131p,861b,527s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (24 pages, 1812750 bytes).
+Output written on main.pdf (24 pages, 1812836 bytes).
 PDF statistics:
  171 PDF objects out of 1000 (max. 8388607)
  98 compressed objects within 1 object stream
