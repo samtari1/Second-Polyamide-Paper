@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex main"] 1635694490 "main.aux" "main.bbl" "main" 1635699127
-  "acs-main.bib" 1635695515 306 2ec6e2c563f7f14bcefed0d36c308168 "pdflatex"
+["bibtex main"] 1635886406 "main.aux" "main.bbl" "main" 1635886416
+  "acs-main.bib" 1635886414 306 2ec6e2c563f7f14bcefed0d36c308168 "pdflatex"
   "c:/texlive/2021/texmf-dist/bibtex/bst/achemso/achemso.bst" 1635550746 30297 d6a58c5bca213bb62e6f40e56cd6974f ""
-  "main.aux" 1635695515 15198 c87e60968a7780c680dd832d1d134ef6 "pdflatex"
+  "main.aux" 1635886414 15198 46afcdc93dabe1b4e7d50d22412d88f8 "pdflatex"
   "ref.bib" 1635717982 51431 b607782cbc7f90ce87e0c148b5b15060 ""
   (generated)
-  "main.blg"
   "main.bbl"
-["pdflatex"] 1635695507 "e:/UC Merced/My Project/Exxon_Papers_GitHub/Effect of Aliphatic Chain Length on Polyamide Strain Response/main.tex" "main.pdf" "main" 1635699127
+  "main.blg"
+["pdflatex"] 1635886407 "e:/UC Merced/My Project/Exxon_Papers_GitHub/Effect of Aliphatic Chain Length on Polyamide Strain Response/main.tex" "main.pdf" "main" 1635886416
   "Coplanarity.png" 1635717982 123221 2df1560f68a447ebd763302194b074f1 ""
   "DFT_figure_chemdraw.png" 1635717984 319265 e11d83469dd1405d2a6a2fa5190ddb19 ""
   "Figure S1 sideviews.png" 1635717984 144254 0f708a0c95cab51a053178ced64f39be ""
@@ -114,13 +114,13 @@
   "c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1635568877 4401551 5ba9eaeb3d6050afa3135f1abcf2569c ""
   "c:/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1635569242 2805235 9d3fda07eab1a4a2ec971962c23bf11d ""
   "c:/texlive/2021/texmf.cnf" 1635568788 713 e69b156964470283e0530f5060668171 ""
-  "e:/UC Merced/My Project/Exxon_Papers_GitHub/Effect of Aliphatic Chain Length on Polyamide Strain Response/main.tex" 1635695504 40995 f03f9786234783140d598f6c732f9109 ""
-  "main.aux" 1635695515 15198 c87e60968a7780c680dd832d1d134ef6 "pdflatex"
-  "main.bbl" 1635694491 30775 c650497845555eed5cd4462e0c54ab17 "bibtex main"
-  "main.tex" 1635695504 40995 f03f9786234783140d598f6c732f9109 ""
+  "e:/UC Merced/My Project/Exxon_Papers_GitHub/Effect of Aliphatic Chain Length on Polyamide Strain Response/main.tex" 1635886396 40951 c8607e170d8eb4fb6aea2ac0d5d2da8a ""
+  "main.aux" 1635886414 15198 46afcdc93dabe1b4e7d50d22412d88f8 "pdflatex"
+  "main.bbl" 1635886407 30775 c650497845555eed5cd4462e0c54ab17 "bibtex main"
+  "main.tex" 1635886396 40951 c8607e170d8eb4fb6aea2ac0d5d2da8a ""
   "natmove.sty" 1635717982 4282 e101fc5d427553694ae04128b2c17648 ""
   (generated)
   "main.pdf"
-  "main.aux"
   "acs-main.bib"
+  "main.aux"
   "main.log"
