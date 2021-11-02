@@ -1,5 +1,5 @@
 # Fdb version 3
-["bibtex main"] 1635694490 "main.aux" "main.bbl" "main" 1635695518
+["bibtex main"] 1635694490 "main.aux" "main.bbl" "main" 1635699127
   "acs-main.bib" 1635695515 306 2ec6e2c563f7f14bcefed0d36c308168 "pdflatex"
   "c:/texlive/2021/texmf-dist/bibtex/bst/achemso/achemso.bst" 1635550746 30297 d6a58c5bca213bb62e6f40e56cd6974f ""
   "main.aux" 1635695515 15198 c87e60968a7780c680dd832d1d134ef6 "pdflatex"
@@ -7,7 +7,7 @@
   (generated)
   "main.blg"
   "main.bbl"
-["pdflatex"] 1635695507 "e:/UC Merced/My Project/Exxon_Papers_GitHub/Effect of Aliphatic Chain Length on Polyamide Strain Response/main.tex" "main.pdf" "main" 1635695518
+["pdflatex"] 1635695507 "e:/UC Merced/My Project/Exxon_Papers_GitHub/Effect of Aliphatic Chain Length on Polyamide Strain Response/main.tex" "main.pdf" "main" 1635699127
   "Coplanarity.png" 1635717982 123221 2df1560f68a447ebd763302194b074f1 ""
   "DFT_figure_chemdraw.png" 1635717984 319265 e11d83469dd1405d2a6a2fa5190ddb19 ""
   "Figure S1 sideviews.png" 1635717984 144254 0f708a0c95cab51a053178ced64f39be ""
@@ -121,6 +121,6 @@
   "natmove.sty" 1635717982 4282 e101fc5d427553694ae04128b2c17648 ""
   (generated)
   "main.pdf"
-  "main.log"
-  "acs-main.bib"
   "main.aux"
+  "acs-main.bib"
+  "main.log"
