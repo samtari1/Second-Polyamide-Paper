@@ -100,7 +100,7 @@ United States}
 %% optional argument to \title.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \title
-  {Effect of Aliphatic Chain Length on Polyamide Strain Response}
+  {Effect of Aliphatic Chain Length on the Strain Response of Polyamide Crystals}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Some journals require a list of abbreviations or keywords to be
@@ -152,15 +152,16 @@ United States}
 %% if an abstract is not used by the target journal.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{abstract}
-Reactive molecular dynamics simulations were used to model poly($p$-phenylene terephthalamide) and related aromatic-aliphatic polyamides derived from aliphatic diacids with different numbers of carbon atoms in the aliphatic chain.
+Reactive molecular dynamics simulations were used to model poly($p$-phenylene terephthalamide) and related aromatic-aliphatic polyamides derived from aliphatic diacids with different numbers of carbon atoms in the aliphatic chain (n = 5, 6, 7, or 8).
 Tensile strain was applied to each polymer crystal in the chain direction and the mechanical response was characterized.
-The elastic modulus at high strain was similar for all polymers, but the modulus calculated at low strain decreased with increasing aliphatic chain length.
-The decrease in modulus with chain length was explained by the observation that polymers with longer aliphatic chains were wavier at equilibrium conditions such that they could accommodate low strain without stretching covalent bonds.
+All of the polymers with aliphatic segments exhibited strain hardening, transitioning from the initial (low-strain) linear regime to a second (high-strain) linear regime.
+The modulus at high strain was similar for all polymers, but the modulus calculated at low strain decreased with increasing aliphatic chain length.
+The decrease in low-strain modulus with increasing chain length was explained by the observation that polymers with longer aliphatic chains were wavier (i.e., deviated more strongly from the fully extended conformation) in the quiescent state such that they could accommodate low strain without stretching covalent bonds.
 Extension of wavy chains occurred through an intra-chain process for all polymers, quantified by the bond dihedral angles.
 In addition, for polymers with an even number of non-aromatic carbons, the strain response involved inter-chain slip.
 %Odd-even (number of carbon atoms in the aliphatic chain) effect was observed in both elastic and ultimate properties, where the even polymers strain was accommodated by both elongation/rotation and interchain slip of wavy chains, while the odd was only by elongation/rotation; and odd polymers have larger ultimate stress, which can be explained by the coplanarity of aromatic rings and inter-chain slip.
 The ultimate stress of the polymers exhibited an odd-even effect which was explained by ring-ring coplanarity where polymers with an even number of carbon atoms had less ring alignment and therefore lower ultimate stress.
-The results revealed direct correlations between aliphatic chain length, inter- and intra-chain interactions, and the mechanical properties of polyamides.
+The results revealed direct correlations between aliphatic chain length, inter- and intra-chain interactions, and the mechanical properties of polyamide crystals.
 %The trends observed here for five polymers with distinct chemistry but similar atomic interactions may be extended to other polyamides.
 \end{abstract}
 
@@ -170,11 +171,11 @@ The results revealed direct correlations between aliphatic chain length, inter- 
 \FloatBarrier
 \section{Introduction}
 % PPTA uses
-Aromatic polyamides (i.e., aramids), the most common of which is poly($p$-phenylene terephthalamide) (PPTA), are well-known for their excellent mechanical properties (superior strength-to-weight ratio and flexibility)~\cite{shim2001dynamic,knijnenberg2010synthesis}, thermal stability (thermal decomposition temperature of 500\textdegree{} C)~\cite{yang1993kevlar,mark1962aromatic}, and chemical resistance (to acid, alkali and organic solvent)~\cite{sockalingam2017recent,kim2008modified,krishnan2010numerical,rao2001structure,hogg2006composites}. 
+Aromatic polyamides (i.e., aramids), the most famous of which is poly($p$-phenylene terephthalamide) (PPTA), are well-known for their excellent mechanical properties (superior strength-to-weight ratio and flexibility)~\cite{shim2001dynamic,knijnenberg2010synthesis}, thermal stability (thermal decomposition temperature of 500\textdegree{} C)~\cite{yang1993kevlar,mark1962aromatic}, and chemical resistance (to acid, alkali and organic solvent)~\cite{sockalingam2017recent,kim2008modified,krishnan2010numerical,rao2001structure,hogg2006composites}. 
 These properties make PPTA ideal for many different uses, including aerospace and military applications (e.g., bulletproof body armor fabric and ballistic composites) where performance-to-weight ratio is critical. \cite{brauckmann2016structural,deshmukh2016conformational,chen2016advanced,dobb1979microvoids}
 
 % PPTA limitations
-However, there are limitation of PPTA, primarily associated with processability due to its high melting temperature ($\sim$500\textdegree{}C) and poor solubility (only soluble in highly aggressive polar solvents, such as concentrated sulfuric acid).
+However, there are limitation of PPTA, primarily associated with processability due to its high melting temperature ($\sim$500\textdegree{}C) and poor solubility (only soluble in aggressive polar solvents, such as concentrated sulfuric acid).
 These make the processing of PPTA challenging, expensive, and environmentally unfriendly, and directly limit its wider application.~\cite{debeaupte1992situ,ferreiro2005polyisophthalamides,ferrero2002synthesis,zhou2017synthesis,garcia2010high,huang2013solvent}
 %Melt processing is intractable because of the inaccessible melting point, so the primary route is currently solution processing. 
 %However, PPTA is only soluble in highly aggressive polar solvents, such as concentrated sulfuric acid, making processing challenging, expensive, and environmentally unfriendly, which directly limit its wider application.~\cite{debeaupte1992situ,ferreiro2005polyisophthalamides,ferrero2002synthesis,zhou2017synthesis,garcia2010high}
@@ -184,11 +185,11 @@ These make the processing of PPTA challenging, expensive, and environmentally un
 
 % Methods for improving processibility
 Over the past decade, extensive research has been conducted to develop materials with properties comparable to PPTA but with potentially better processability.
-The high melting temperature of PPTA is a result of its rigid and extended conformation, which is due to the rigidity of the aramid backbone and strong intermolecular interactions such as hydrogen bonding (H-bonding) and $\pi$-stacking.~\cite{rutledge1991analysis,deshmukh2016conformational, crouch2017fibres,brown1977thermal,tonelli2020poly}
+The high melting temperature of PPTA is a result of its rigid and extended conformation, which is due to the rigidity of the aramid backbone and strong intermolecular interactions \textemdash hydrogen bonding (H-bonding) and $\pi$-stacking.~\cite{rutledge1991analysis,deshmukh2016conformational, crouch2017fibres,brown1977thermal,tonelli2020poly}
 A variety of methods have been attempted using chemical modification to lower the melting temperature, including introducing bulky, packing-disruptive groups into the polymer chain or as side-groups, incorporating flexible groups into the polymer backbone, and using meta-oriented or asymmetrically substituted monomers.~\cite{khademinejad2016poly,liou2007synthesis,amininasab2016preparation,hajibeygi2016new,zou2016synthesis,zhang2016effects,damaceanu2011organosoluble,long2020tuning}
 %However, the polymer cannot be too flexible or lead to the reduction of the tensile strength due to decrease in the rigidity of polymer chain.~\cite{yang2008simultaneous}
 % Deshmukh paper and introducing aromatic-aliphatic polyamides
-One such approach is to combine the rigidity of aromatic moieties and the flexibility of aliphatic moieties to create so-called aromatic-aliphatic polyamides.~\cite{deshmukh2016conformational,peng2018novel,bakkali2018synthesis,rwei2018synthesis,rwei2018synthesisof,bisoi2017aromatic}
+One such approach is to combine the rigidity of aromatic moieties and the flexibility of aliphatic moieties to create so-called aromatic-aliphatic polyamides.~\cite{deshmukh2016conformational,peng2018novel,bakkali2018synthesis,rwei2018synthesis,rwei2018synthesisof,bisoi2017aromatic,morgan1975polymides}
 
 % Why do we need simulations to study the polymers
 It is expected that even minor changes in the molecular structure of the aromatic-aliphatic polyamides might significantly affect mechanical behavior.
@@ -223,7 +224,7 @@ The polymer crystal models were initially constructed using Materials Studio~\ci
 For PPTA and PAP5, the unit cell lattice parameters were set to match those measured from X-ray diffraction.~\cite{deshmukh2016conformational} 
 PAP6 - PAP8 were modeled based on the lattice parameters of PAP5 by simply extending the aliphatic chain length correspondingly.
 %The lattice parameters of all the initially-built five polyamides are shown in table~\ref{table:Lattice}.
-The chemical formulas and atomic-scale models of PPTA and PAP5 - PAP8 unit cells are shown in Fig.~\ref{fig:model}. 
+The chemical formulas and atomic-scale models of the PPTA and PAP5 - PAP8 unit cells are shown in Fig.~\ref{fig:model}. 
 The chain direction was aligned with the x-axis, and the H-bonding and $\pi$-stacking directions were aligned with the y- and z-axes, respectively.
 
 
@@ -246,7 +247,7 @@ The chain direction was aligned with the x-axis, and the H-bonding and $\pi$-sta
 
 The unit cell was then replicated in the x-, y- and z-directions to create larger models (4$\times$4$\times$4).
 Periodic boundary conditions were applied in all three directions to mimic ideal crystalline polymers with infinite chain length and without defects or chain ends.
-Although the models in this study are approximations of realistic crystalline polymers that have finite length chains with defects and chain ends, the simulation methods developed here can be easily extended in future work to more realistic model structures.
+Although the models in this study are approximations of realistic crystalline polymers that have finite length chains with defects and chain ends, the simulation methods developed here can be easily extended in future work to more realistic model structures. 
 
 \begin{figure}[ht]
 \centering
@@ -283,9 +284,9 @@ These simulations were repeated three times independently with different random 
 %\subsubsection{Stress-strain Response and Modulus}
 % Describing Observations from the figure
 The stress-strain curves for the polyamides are shown in Fig.~\ref{fig:Stress-strain-Curves-and-Modulus}. 
-The results show that as strain increases, the slope of the curves increases, which indicates the stiffness of the polymers increases with strain. 
+All of the aromatic-aliphatic polyamide crystals exhibit strain hardening, transition from a low-strain linear regime to a high-strain liner regime. 
 In Fig.~\ref{fig:Stress-strain-Curves-and-Modulus}b, the low-strain and high-strain moduli are plotted as functions of the number of non-aromatic carbons in the polymers.
-We observe that the high-strain modulus is essentially independent of the number of non-aromatic carbon atoms.  This results is supported by the fact that at high strain the modulus is mediated by stretching covalent bonds within the polymer, and these bonds have the about the same strength in all five polymers.
+We observe that the high-strain modulus is essentially independent of the number of non-aromatic carbon atoms.  This results is supported by the fact that at high strain the modulus is mediated by stretching covalent bonds within the polymer, and the bond stretching and bending stiffnesses are about the same in all five polymers.
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.45]{Stress-strain-Curves-and-Modulus.png}
@@ -298,12 +299,12 @@ We observe that the high-strain modulus is essentially independent of the number
 In contrast, the low-strain modulus decreases with increasing number of non-aromatic carbon atoms (Fig.~\ref{fig:Stress-strain-Curves-and-Modulus}b).
 In our previous study of PPTA and PAP5,~\cite{yang2021molecular} we found that low strain behavior could be correlated to chain waviness because wavy chains can accommodate strain without stretching covalent bonds.
 Waviness can be quantified from the distribution of the atoms in the polymer in the plane transverse to the chain direction, i.e., the y-z plane.
-Fig.~\ref{fig:SideView-Waviness-and-Low-strain-Modulus}a is a representative plot of the positions of the non-aromatic carbon atoms and nitrogen atoms in PAP7 with respect to the centroid of each chain, from zero to failure strain.
+Fig.~\ref{fig:SideView-Waviness-and-Low-strain-Modulus}a is a representative plot of the positions of the non-aromatic backbone atoms in PAP7 with respect to the centroid of each chain, from zero strain to failure.
 At low strain (darker blue), the atoms are far from the centroid, indicating a wavy structure.
 Then, as strain increases (lighter blue), the chain is extended, and the atoms are found closer to the centroid.
 
 
-Waviness was then calculated as the radius R of a circle fit to the perimeter of 90\% of the atoms closest to the center of the chain such that a larger radius corresponds to atoms further from the centroid and wavier chain.
+Waviness was then calculated as the radius R of a circle that encompasses 90\% of the atomic coordinates closest to the center of the chain such that a larger radius corresponds to atoms further from the centroid and wavier chain.
 % The waviness of all polymer crystals at zero strain was quantified as the radius of the circle fit to the outline of the most-close-to-centroid non-aromatic carbons and nitrogen atoms.
 The results for all polymers are shown in Fig.~\ref{fig:SideView-Waviness-and-Low-strain-Modulus}b, where waviness increases with number of non-aromatic carbons.
 The increasing trend of waviness is due to the methylene groups acting as spacers between the hydrogen-bonded amide groups, which increases the conformational freedom of the polymer chains.
@@ -312,7 +313,7 @@ The low-strain modulus is re-plotted in Fig.~\ref{fig:SideView-Waviness-and-Low-
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.55]{SideView-Waviness-and-Low-strain-Modulus.png}
-\caption{(a) Positions of atoms in the chains projected on the yz plane for PAP7 at zero strain, where the centroid of each chain is manually moved to the origin of the yz plane. Similar plots for the other polymers are shown in Figure S1. The radius R of a circle fit to the outline of 90\% of the inner-most non-aromatic carbon atoms and nitrogen atoms averaged over three independent simulations is calculated as a measure of waviness. (b) Low-strain modulus and waviness as functions of the number of non-aromatic carbons. The error bars reflect the standard deviations calculated from three independent simulations.}
+\caption{(a) Positions of atoms in the chains projected on the yz plane for PAP7 as a function of strain, where the origin corresponds to the centroid of each chain. Similar plots for the other polymers are shown in Fig. S1. The radius R\_0 of a circle encompassing the coordinates of 90\% of the inner-most non-aromatic carbon atoms and nitrogen atoms averaged over three independent simulations is calculated as a measure of waviness. (b) Low-strain modulus and waviness as functions of the number of non-aromatic carbons. The error bars reflect the standard deviations calculated from three independent simulations.}
 \label{fig:SideView-Waviness-and-Low-strain-Modulus}
 \end{figure}
 
@@ -327,14 +328,14 @@ However, the shapes and sharpness of these transition points are different for t
 To explore the origin of this behavior, stress-strain simulations were performed for single chains taken from the end of the NPT simulation of each crystal.
 Two representative comparisons between crystals and single chains are shown in Fig.~\ref{fig:Stress-strain-Curve-SingleChain-vs-Crystal}.
 Both single chains and crystals exhibit lower stiffness at low strain than high strain and a gradual increase in stiffness around 5\% strain, indicating that this behavior is due to \textit{intra-chain} processes.
-For PAP6 only (Fig.~\ref{fig:Stress-strain-Curve-SingleChain-vs-Crystal}a), the crystal has a sharp transition from low to high strain behavior observed around 10\% strain (also observed for PAP8, in Figure S2) while the single chain does not. 
+For PAP6 (Fig.~\ref{fig:Stress-strain-Curve-SingleChain-vs-Crystal}a) and PAP8 (Fig. S2), the stress response transitions sharply from low to high strain behavior around 10\% strain, while the single chain does not. 
 This indicates that the sharp transition or shoulder in the stress-strain response of some polymers is due to \textit{inter-chain} effects.
-
+ 
 
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.45]{Stress-strain-Curve-SingleChain-vs-Crystal.png}
-\caption{Stress-strain response of single chain and crystal forms of (a) PAP6 and (b) PAP7. The single chain is taken from the end of the NPT simulation of each crystal. Similar trends for PAP5 and PAP8 are shown in Figure S2.}
+\caption{Stress-strain response of single chain and crystal forms of (a) PAP6 and (b) PAP7. The single chain is taken from the end of the NPT simulation of each crystal. Similar trends for PAP5 and PAP8 are shown in Fig. S2.}
 \label{fig:Stress-strain-Curve-SingleChain-vs-Crystal}
 \end{figure}
 
@@ -343,23 +344,24 @@ This indicates that the sharp transition or shoulder in the stress-strain respon
 %\subsubsection{Two Effects in Strain Accommodation}
 % introduction to slip and dihedral rotation
 To understand how inter- and intra-chain interactions affect the stress-strain response of the crystals, the movement of the atoms and aromatic rings was characterized in terms of inter-chain slip and rotation of dihedral angles.
-Inter-chain slip was quantified by the change of average distance in the strain direction between each pair of adjacent aromatic rings in each of the two adjacent chains.
-Intra-chain dihedral rotation was quantified as the average angles of three different dihedral angles (HNCO, NCCC, and OCCC) inside each chain.
+Inter-chain slip was quantified by the change of average distance in the strain (x) direction between the centers of mass of each pair of adjacent aromatic rings stacked in the z-direction.
+Intra-chain dihedral rotation was quantified through three different dihedral angles (HNCO, NCCC, and OCCC) in the backbones.
 The results are plotted vs. strain in Fig.~\ref{fig:Slip-and-Rotation-vs-Strain}.
-
+ 
 % intra-chain interactions
 The motions are quantified by the change of dihedral angles during stretching relative to the equilibrated state at zero strain.
-The gradual increase in stiffness exhibited by all polymers, except PPTA, correlates well with changes in the dihedral angles (e.g., decreasing OCCC and increasing NCCC at the shoulder), indicating the low strain is accommodated by elongation and rotation of wavy chains.
-For PAP5-PAP8, the NCCC dihedral angle increases and the OCCC angle decreases gradually at low strain as the stress activates angle rotation.~\cite{tonelli2020poly} 
+For PAP5-PAP8, the NCCC dihedral angle increases and the OCCC angle decreases gradually in the low-strain regime as the energy barriers for bond rotations are overcome.~\cite{tonelli2020poly} 
+The gradual increase in stiffness in the low-strain regime exhibited by all polymers, except PPTA, correlates well with changes in the dihedral angles (i.e., decreasing OCCC angle and increasing NCCC angle), indicating the low strain is accommodated by straightening wavy chains.
 Then, when the chain is fully extended, the angles increase/decrease abruptly and remain at a constant value until failure.  
-
+The strain at which these rotational modes are exhausted corresponds closely with the transition out of the low-strain regime for all four aromatic-aliphatic polyamides.
 
 % inter-chain interactions
 The predominant inter-chain mechanism observed in the simulations is slip between chains.
-Slip is near zero for all polymers at low strain.
+At zero strain, the rings of all five polymers are in nearly perfect registry along the x-coordinate, i.e., "slip" is near zero.
 For PPTA, PAP5, and PAP7, the slip remains at zero until failure.
-However, for PAP6 and PAP8 (animations in Movie S1), there is a sharp increase in slip at the transition between low and high-strain behavior, i.e., the transition between the wavy and extended conformation.
-This slip mechanism is accessible to PAP6 and PAP8 because they have an even number of carbon atoms, which corresponds to a parallelogram structure that is less stable than the trapezoid structure of polymers with an odd number of carbon atoms ~\cite{thalladi2000melting,white2008room,bond2004crystal}(see Figure S3 for representative snapshots of these structures).
+However, for PAP6 and PAP8 (animations in Movie S1), the chains undergo a discrete slipping event (the magnitude of which is only ~0.5 A) at the transition between low and high-strain behavior, i.e., the transition between the wavy and extended conformation.
+After this slip event, the relative position of the crystal stems remains stable until failure.
+This slip mechanism is accessible to PAP6 and PAP8 because they have an even number of carbon atoms, which corresponds to a parallelogram structure that is less stable than the trapezoid structure of polymers with an odd number of carbon atoms ~\cite{thalladi2000melting,white2008room,bond2004crystal}(see Fig. S3 for representative snapshots of these structures).
 This so-called odd-even effect~\cite{baeyer1877ueber,thalladi2000melting} has been observed in the elastic properties of polymers including $\alpha$,$\omega$-alkanedicarboxylic acids~\cite{mishra2013odd} and polyesters~\cite{shen2017facile}.
 \begin{figure}[h!]
 \centering
@@ -379,17 +381,19 @@ Odd-even effects have also been observed in the ultimate properties of polyureth
 elastomers~\cite{prisacariu2011influence} and polyesters~\cite{shen2017facile}.
 %The analysis so far has focused on the elastic response of the polymer crystals.
 As shown in Fig.~\ref{fig:Coplanarity}, aromatic-aliphatic polyamides with an even number of carbon atoms have lower ultimate stress.
-Density functional theory calculations (Figure S4) showed that the methylene segment does not directly affect bond strength, suggesting the observed odd-even trend in ultimate stress is an inter-chain effect.
+In all cases the reactive simulations predict that failure occurs by breaking the N-C(O) bond in the amide.
+Density functional theory (DFT) calculations were used to probe the bond dissociation energies (BDEs) of the N-C(O) in single repeat units of PPTA and a representative fragment of an aromatic-aliphatic polyamide (Fig. S4).  
+The DFT results showed that the aliphatic segment does not affect bond strength, suggesting the observed odd-even trend in ultimate stress is an inter-chain effect.
 %The ultimate stress, reported in Fig.~\ref{fig:Coplanarity}, is lower for PPTA than the other polymers, indicating an improvement of tensile strength due to the introduction of methylene units.
 %In addition, among the four methylene-containing polymers, there is odd-even behavior, where polymers with an even number of carbon atoms have lower ultimate stress.
-First, the slip exhibited by PAP6 and PAP8 (Fig.~\ref{fig:Slip-and-Rotation-vs-Strain}) likely contributes to their lower ultimate strength.
+% First, the slip exhibited by PAP6 and PAP8 (Fig.~\ref{fig:Slip-and-Rotation-vs-Strain}) likely contributes to their lower ultimate strength.
 
 
 % Analysis of coplanarity; explain odd-even effect by coplanarity of rings
-Second, it has been shown that ring-ring interactions ($\pi$-stacking) affect the ultimate properties of polyamides, and the strength of these interactions is related to the coplanarity of the rings.~\cite{yang2021molecular,burattini2011supramolecular}
-The coplanarity of the rings is quantified by the angle between each pair of aromatic rings in adjacent chains (see inset to Fig.~\ref{fig:Coplanarity}) averaged over the last 2\% strain before failure. 
-Coplanarity is plotted as a function of the number of non-aromatic carbons in Fig.~\ref{fig:Coplanarity}, where small ring-ring angle corresponds to high coplanarity.
-The ultimate stress and coplanarity of the polymers exhibit consistent trends where polymers with an even number of carbon atoms have less aligned rings and lower strength.
+It has been shown that ring-ring interactions ($\pi$-stacking) affect the ultimate properties of polyamides, and the strength of these interactions is related to the coplanarity of the rings.~\cite{yang2021molecular,burattini2011supramolecular}
+The coplanarity of the rings is quantified here by the angle between each pair of aromatic rings in adjacent chains (see inset to Fig.~\ref{fig:Coplanarity}) averaged over the last 2\% strain before failure. 
+Coplanarity is plotted as a function of the number of non-aromatic carbons in Fig.~\ref{fig:Coplanarity}, where small ring-ring angle corresponds to better registry between the aromatic rings (high coplanarity).
+The ultimate stress and coplanarity of the polymers exhibit consistent trends where polymers with poorer registry (weaker $\pi$-$\pi$ interactions) and lower strength.
 %This correlation between coplanarity and ultimate stress is consistent with our previous study on PPTA and PAP5 that reported better coplanarity indicates stronger ring-ring interaction therefore higher ultimate stress.~\cite{yang2021molecular} 
 
 % Inter-chain Slip
@@ -400,7 +404,7 @@ The ultimate stress and coplanarity of the polymers exhibit consistent trends wh
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.60]{Coplanarity.png}
-\caption{Ultimate stress and coplanarity as functions of the number of non-aromatic carbons. The errors bars reflect the standard deviation from three independent simulations.}
+\caption{Ultimate stress and coplanarity, quantified by the ring-ring angle, as functions of the number of non-aromatic carbons. The errors bars reflect the standard deviation from three independent simulations.}
 \label{fig:Coplanarity} 
 \end{figure}
 
@@ -409,19 +413,21 @@ The ultimate stress and coplanarity of the polymers exhibit consistent trends wh
 \FloatBarrier
 \section{Conclusions}
 % General description of what were done
-Molecular dynamics simulations were performed to study the stress-strain response of PPTA and four related aromatic-aliphatic polyamides (PAP5-PAP8) with different numbers of non-aromatic carbons in the aliphatic chain. 
+Molecular dynamics simulations were performed to study the stress-strain response of PPTA and four related aromatic-aliphatic polyamides with different numbers of non-aromatic carbons in the aliphatic chain. 
+Two distinct linear stress-strain regimes were observed.
 % General description of the results
 It was found that the subtle structural differences between these polymers lead to distinct elastic and ultimate properties.
 % Results of elastic properties
 The low-strain modulus (calculated from 0-2\% strain) decreased with increasing aliphatic chain length while the high-strain modulus (calculated from the last 5\% strain before failure) was independent of the aliphatic chain length.
 % Explanation of the elastic properties
-The trend of low-strain modulus was explained in terms of the waviness of the polymers at zero strain, i.e., longer aliphatic chain length increased the conformational freedom of the chains and therefore increased the waviness of the polymers, which finally decreased the low-strain modulus.
+The trend of low-strain modulus was explained in terms of departure from the extended chain conformations--waviness-- of the polymers at zero strain.
+Longer aliphatic chain length increased the conformational freedom of the chains and therefore increased the waviness of the polymers, which finally decreased the low-strain modulus.
 % Results of transition between low- and high-strain
 The transition from low to high strain behavior was correlated to rotation of dihedral angles as the chains were extended, so this behavior was due to intra-chain effects.
 It was also observed that polymers with an even number of carbon atoms
 %in the alphatic chain exhibited a sharp transition between low-strain and high-strain, while the others had a smoother transition.
 % Explanation of transition
-exhibited inter-chain slip at the transition between the wavy and extended conformation, which was explained by the instability of the trapezoidal structure of these polymers.
+exhibited a discrete inter-chain slip mechanism at the transition between the wavy and extended conformation, which was explained by the instability of the trapezoidal structure of these polymers.
 %The intra-chain interactions that accommodated strain slowly included elongation of the chain and rotation of dihedrals, which were found for all polymers. 
 %In addition, inter-chain slip, which was only found for even polymers, enhanced the sharpness of the transition which explains the larger sharpness of even polymers than the odd counterparts. 
 % Results of ultimate property
@@ -430,7 +436,7 @@ A similar odd-even effect was observed at failure, where even polymers had lower
 Coplanarity of the aromatic rings correlated well with the trend of ultimate stress, i.e., less coplanar rings (larger ring-ring angle) corresponded to lower ultimate stress.
 %In addition, the inter-chain slip due to the less stable trapezoidal structure of the even polymers was also a main factor for explaining the lower ultimate stress of the even polymers.
 % Closure
-The results reported here show that aromatic-aliphatic polyamides can be designed with mechanical properties comparable to or better than PPTA yet even subtle differences in chemical composition can affect properties.
+The results reported here show that aromatic-aliphatic polyamides can be designed with mechanical properties comparable to or better than PPTA yet even subtle differences in chemical composition can affect the mechanical response.
 Further, the correlations between structure and mechanical properties identified, as well as the simulation-based approach, may be extended to other similar polymers to enable tuning of mechanical properties through chemical modification.
 
 %
@@ -440,7 +446,7 @@ Further, the correlations between structure and mechanical properties identified
 %% environment, which will make the correct section or running title.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{acknowledgement}
-We acknowledge ExxonMobil Research and Engineering Company for financial support of this work. The stimulating discussions with ExxonMobil colleagues (Ozcan Altintas, Arben Jusufi, Aruna Mohan, Agostino Pietrangelo, Thomas Sun, Pamela J Wright) are highly appreciated. The simulations were in part run using the Extreme Science and Engineering Discovery Environment (XSEDE), which is supported by National Science Foundation Grant ACI-1548562.
+We acknowledge ExxonMobil Research and Engineering Company for financial support of this work. The stimulating discussions with ExxonMobil colleagues (Ozcan Altintas, Arben Jusufi, Aruna Mohan, Agostino Pietrangelo, Thomas Sun, Loan T. Vo, Pamela J Wright) are highly appreciated. The simulations were in part run using the Extreme Science and Engineering Discovery Environment (XSEDE), which is supported by National Science Foundation Grant ACI-1548562.
 \end{acknowledgement}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -466,7 +472,7 @@ Movie M1: Animation of strain simulations of all polymers shown from the y-direc
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.55]{Figure S1 sideviews.png}
-\caption{Positions of atoms in the chains projected on the yz plane, where the centroid of each chain is moved to the origin of the yz plane, for (a) PPTA, (b) PAP5, (c) PAP6, and (d) PAP8. The radius of a circle fit to the outline of the 90\% innermost non-aromatic carbon atoms is averaged over three independent simulations to quantify waviness. 
+\caption{Positions of the non-aromatic, backbone atoms in the chains projected on the yz plane, where the centroid of each chain is the origin of the yz plane, for (a) PPTA, (b) PAP5, (c) PAP6, and (d) PAP8. The radius of a circle fit to the outline of the 90\% innermost non-aromatic carbon atoms is averaged over three independent simulations to quantify waviness. 
 }
 \label{fig:sideviews}
 \end{figure}
@@ -483,7 +489,7 @@ Movie M1: Animation of strain simulations of all polymers shown from the y-direc
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.35]{Figure S3 Parallelogram and Trapezoid.png}
-\caption{Representative snapshots of trapezoidal and parallelogrammatic structures in the backbones of (a) odd (PAP5) and (b) even (PAP6) polymers. 
+\caption{Representative snapshots of trapezoid and parallelogram structures in the backbones of (a) odd (PAP5) and (b) even (PAP6) polymers. 
 }
 \label{fig:ParallelogramANDTrapezoid}
 \end{figure}
@@ -495,7 +501,7 @@ Movie M1: Animation of strain simulations of all polymers shown from the y-direc
 \centering
 \includegraphics[width=0.8\textwidth]{DFT_figure_chemdraw.png}
 \caption{Truncated polymer models used to compute the bond dissociation
-energy (BDE) for (a) PPTA and (b) PAP5.
+energy (BDE) for (a) PPTA and (b) representative aromatic-aliphatic polyamide fragment.
 X denotes the bond for which the BDE was computed.
 For PAP5, the gray part of the repeat unit was omitted from the DFT calculations
 because the cleaved bond is not likely to be affected by more distant
@@ -504,7 +510,7 @@ moieties.
 \label{fig:DFT}
 \end{figure}
 
-Figure \ref{fig:DFT} shows the model systems used to compute the 
+Fig.~\ref{fig:DFT} shows the model systems used to compute the 
 lowest BDE of the polymer chains for PPTA and PAP5.
 The bond denoted X was selected based on previous work 
 that showed this bond was the weakest in the PPTA system \cite{mercer2017molecular}.
